@@ -11,6 +11,8 @@ fi
 KEYSARRAY=()
 URLSARRAY=()
 
+git pull
+
 urlsConfig="./urls.cfg"
 echo "Reading $urlsConfig"
 while read -r line
